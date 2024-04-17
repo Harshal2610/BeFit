@@ -1,0 +1,33 @@
+.container {
+  margin: 1.5rem 0rem;
+  height: 55vh;
+}
+.listItem {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.item {
+  list-style: none;
+  padding: 1.5rem;
+  background-color: #e2e3f7;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  cursor: pointer;
+}
+.item span {
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.details {
+  margin: 5px 0px;
+  display: flex;
+  justify-content: space-between;
+  grid-column: span 2;
+}
+.details span {
+  font-size: 1rem;
+  font-weight: 520;
+  font-style: oblique;
+}

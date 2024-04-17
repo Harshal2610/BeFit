@@ -1,0 +1,35 @@
+@import "https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap";
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+:root {
+  --background-colour: #f4f5f7;
+  --color-dark: #1a1a2e;
+}
+html {
+  font-size: 88%;
+}
+body {
+  margin: 20px;
+  font-family: "Manrope", sans-serif;
+}
+
+.btn {
+  border: none;
+  padding: 0.9rem;
+  font-size: 1.4rem;
+  border-radius: 5px;
+}
+@media screen and (max-width: 1400px) {
+  html {
+    font-size: 80%;
+  }
+}
+@media screen and (max-width: 500px) {
+  body {
+    margin: 0px;
+  }
+}

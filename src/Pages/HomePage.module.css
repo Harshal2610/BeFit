@@ -1,0 +1,62 @@
+.container {
+  background-image: url("../background.jpg");
+  height: 93vh;
+  width: 100%;
+  background-size: cover;
+}
+
+.section {
+  height: 20rem;
+  width: 50%;
+  margin: 2rem;
+  padding: 2rem;
+  position: absolute;
+  top: 12rem;
+  right: 7rem;
+}
+
+.section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #1a1a2e;
+  text-align: left;
+}
+
+.section h2 {
+  width: 80%;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  border: none;
+  padding: 0.9rem;
+  font-size: 1.4rem;
+  border-top: 1px solid var(--color-dark);
+  border-bottom: 1px solid var(--color-dark);
+  background-color: var(--background-color);
+}
+.btn:hover {
+  background-color: #fff;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    background: none;
+    background-color: #f2f3f7;
+  }
+  .section {
+    margin: 0px;
+    padding: 0px;
+  }
+  .section h1 {
+    width: 100%;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #1a1a2e;
+    text-align: left;
+  }
+  .section h2 {
+    font-size: 1.3rem;
+  }
+}

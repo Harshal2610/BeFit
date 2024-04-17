@@ -1,0 +1,13 @@
+.container {
+  display: grid;
+  grid-template-columns: 35rem auto;
+  gap: 2rem;
+  background-color: #f2f3f7;
+}
+@media screen and (max-width: 500px) {
+  .container {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+}

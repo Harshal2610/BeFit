@@ -1,0 +1,54 @@
+.container {
+  padding: 20px;
+}
+
+.input {
+  padding: 20px;
+  display: flex;
+  gap: 1rem;
+  background-color: #e2e3f7;
+  border-radius: 10px;
+  height: 6.3rem;
+}
+
+.input input {
+  padding: 0.7rem;
+  width: 85%;
+  background-color: #f2f3f7;
+  border: 2px solid white;
+  border-radius: 20px;
+  margin-left: 2rem;
+}
+
+.btn {
+  background-color: #f2f3f7;
+  padding: 10px;
+  border-radius: 20px;
+  border: 2px solid white;
+  cursor: pointer;
+}
+.btn:hover {
+  transform: translateY(-5px);
+  border-bottom: 7px solid white;
+}
+.input input:focus {
+  outline: 2px solid white;
+}
+
+.customizeBtn {
+  background-color: #e2e3f7;
+  border: 1px solid #1a1a2e;
+  position: absolute;
+  bottom: 3rem;
+  right: 3rem;
+}
+.customizeBtn:hover {
+  border: 1px solid #1a1a2e;
+}
+@media screen and (max-width: 500px) {
+  .customizeBtn {
+    position: relative;
+    bottom: 2rem;
+    left: 0.5rem;
+  }
+}
